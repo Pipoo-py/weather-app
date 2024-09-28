@@ -1,0 +1,133 @@
+.view-weather__container{
+    background-color: #fff;
+    margin: auto;
+    margin-top: 5dvh;
+    border-radius: 16px;
+    padding: 16px 24px;
+    width: clamp(150px, 70dvw, 600px);
+}
+h1{
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 12px 0;
+}
+form{
+    display: flex;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 4px 12px;
+    border: none;
+    border-bottom: 1px solid #48e;
+    outline: none;
+}
+
+input[type="submit"]{
+    padding: 8px 12px;
+    background-color: #48e;
+    border: none;
+    color: #fff;
+}
+
+.location-name{
+    text-align: center;
+    padding: 12px;
+    color: #48e;
+}
+
+.location-region{
+    text-align: center;
+    color: #24a;
+}
+
+.view-weather__temp{
+    margin-top: 12px;
+    border-top: 1px solid #48ea;
+    padding: 12px;
+}
+
+.view-weather__temp h3,
+.view-weather__temp > h6{
+    margin-bottom: 12px ;
+    text-align: center;
+}
+
+.view-weather__temp > h6{
+    color: #48e;
+}
+
+.view-weather__temp-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.view-weather__temp-flex div{
+    background-color: #24a;
+    padding: 8px 16px;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.view-weather__minmax-temp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 8px;
+}
+
+.view-weather__minmax-temp h6{
+    padding: 12px 0;
+}
+
+.view-weather__min-temp,
+.view-weather__max-temp{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.view-chances{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    text-align: center;
+    gap: 8px;
+}
+
+.view-chances div{
+    background-color: #48e;
+    padding: 12px;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.view-wind h3{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.view-wind__vel{
+    text-align: center;
+}
+
+.view-wind__vel h4{
+    color: #48e;
+}
+
+.view-wind__vel-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.view-wind__vel-container span{
+    background-color: #24a;
+    padding: 4px 12px;
+    color: #fff;
+    border-radius: 8px;
+}
